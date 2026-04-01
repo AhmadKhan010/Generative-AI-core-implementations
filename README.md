@@ -175,26 +175,6 @@ jupyter notebook Generative_Modeling_using_VAE.ipynb
 | **Main Challenge**   | Long-range dependencies | Detail preservation | Blurry generations       |
 | **Decoding Methods** | Greedy, Beam Search     | N/A (Direct)        | Sampling, Interpolation  |
 
-## 🎓 Learning Path
-
-### Beginner Level
-
-1. Start with **Project 3 (VAE)** to understand probabilistic models
-2. Review the reparameterization trick and ELBO loss
-3. Modify latent dimensions and observe generation changes
-
-### Intermediate Level
-
-1. Study **Project 2 (Denoising Autoencoder)** for unsupervised learning
-2. Experiment with different bottleneck sizes
-3. Analyze reconstruction metrics: MSE, PSNR, SSIM
-
-### Advanced Level
-
-1. Implement **Project 1 (NMT)** for sequence modeling
-2. Understand attention mechanisms and beam search
-3. Perform hyperparameter tuning and error analysis
-
 ## 🔑 Key Concepts Covered
 
 ### Foundational Concepts
@@ -217,24 +197,6 @@ jupyter notebook Generative_Modeling_using_VAE.ipynb
 - **Beam Search**: Improved decoding for sequence models
 - **KL Divergence**: Measuring distribution similarity
 - **Trade-offs**: Compression vs. quality, reconstruction vs. generation
-
-## 📈 Model Comparison
-
-### Performance Overview
-
-| Model      | Task         | Best Metric    | Generalization                     |
-| ---------- | ------------ | -------------- | ---------------------------------- |
-| NMT (RNN)  | English→Urdu | BLEU: 71.64    | Moderate (long sentences struggle) |
-| DAE (Conv) | Denoising    | PSNR: 19.33 dB | Good (learned noise type)          |
-| VAE        | Generation   | ELBO: 242.17   | Excellent (smooth latent space)    |
-
-### Computational Requirements
-
-| Project   | Model Size   | Training Time | Inference Speed |
-| --------- | ------------ | ------------- | --------------- |
-| Project 1 | 7.2M params  | ~2 hours      | Real-time       |
-| Project 2 | 0.58M params | ~1 hour       | Real-time       |
-| Project 3 | 0.42M params | ~30 min       | Real-time       |
 
 ## 🔍 Experimental Features
 
@@ -281,21 +243,6 @@ jupyter notebook Generative_Modeling_using_VAE.ipynb
 - [ ] Large-scale pre-training and transfer learning
 - [ ] Multimodal generative models
 - [ ] Energy-based generative models
-
-## 📚 Educational Resources
-
-### Theory
-
-- **Deep Learning**: Goodfellow, Bengio, Courville (2016)
-- **Attention is All You Need**: Vaswani et al. (2017)
-- **Auto-Encoding Variational Bayes**: Kingma & Welling (2014)
-- **Denoising Autoencoders**: Vincent et al. (2008)
-
-### Implementations
-
-- PyTorch Documentation: https://pytorch.org/
-- TorchVision Datasets: https://pytorch.org/vision/
-- HuggingFace Transformers: https://huggingface.co/transformers/
 
 ## 🤝 Contributing
 
@@ -357,13 +304,13 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 ## 📄 License
 
-This repository is part of the **Generative AI Course** at **FAST-NUCES (National University of Computer and Emerging Sciences), Islamabad**.
+Copyright © 2026 Ahmad Khan. All rights reserved.
 
 ## 👨‍💻 Author & Contact
 
 **Ahmad Khan**
 
-- **Email**: i221288@nu.edu.pk
+- **Email**: ahmadkhanmarwat8@gmail.com
 - **Institution**: FAST-NUCES, Islamabad
 - **Course**: Generative AI (Spring 2026)
 

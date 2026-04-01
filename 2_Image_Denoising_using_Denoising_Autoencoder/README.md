@@ -376,13 +376,13 @@ Potential contributions:
 
 ## 📄 License
 
-This project is part of the Generative AI course at FAST-NUCES.
+Copyright © 2026 Ahmad Khan. All rights reserved.
 
 ## 👨‍💻 Author
 
 **Ahmad Khan**
 
-- Email: i221288@nu.edu.pk
+- Email: ahmadkhanmarwat8@gmail.com
 - Institution: FAST National University of Computer and Emerging Sciences, Islamabad
 
 ## 🙏 Acknowledgments
